@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Stats from '../components/Stats/Stats'
 import Blocks from '../components/Table/Blocks'
 import Transactions from '../components/Table/Transactions'
-import { blocks, transactions } from './fake-data'
+import { blocks, transactions } from '../data/fake-data'
 
 export default function Home() {
   return (
